@@ -1,0 +1,51 @@
+/* app/components/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logoImage {
+    max-height: 50px;
+  }
+  
+  .nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    display: inline;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navLink:hover {
+    background-color: #555;
+  }
+  
+  .signIn {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
